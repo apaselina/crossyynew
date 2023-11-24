@@ -186,7 +186,13 @@ footer{
 .main__card:hover {
     transform: scale(1.2);
     transform: translateY(-10px);
+    
+    
 }
+
+.main__card:hover::after {
+    opacity: 1;
+  }
 
 @media screen and (max-width: 1150px){
     .header__container{
